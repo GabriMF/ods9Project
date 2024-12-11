@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(255, 239, 223);
+    background-color: #AABD8C;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -12,8 +12,9 @@ main{
 header{
     display: flex;
     align-items: center;
-    background-color: rgb(238, 177, 96);
-    border: 3px rgb(231, 146, 35) solid;
+    background-color: #F39B6D;
+    border: 3px #fa7a36 solid;
+    border-radius: 10px;
 }
 
 nav{
@@ -23,37 +24,81 @@ nav{
     width: 100%;
 }
 
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #381D2A;
+    border: 3px, #d40b6d, solid;
+    border-radius: 10px;
+    color: wheat;
+}
+
+.footerLink{
+    color: rgb(182, 5, 158);
+}
+
+.logo{
+    width: 10vw;
+    border-radius: 10px;
+    padding: 1vh;
+}
+
 h1{ font-size: 2.5rem; }
+h4{
+    text-align: center;
+    margin-left: 1vw;
+}
 
 a{ text-decoration: none; }
+
+
 
 /* _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_- */
 /*                                                      Index Section                                                       */
 /* _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_- */
 
+
+
 .introduction{
     display: flex;
     width: 80%;
     margin-bottom: 15vh;
+    padding: 2vh;
+    background-color: #3E6990;
+    border: 3px, #659dd1, solid;
+    border-radius: 10px;
 }
 .introImg{
     height: 30vh;
+    border-radius: 10px;
 }
 .indexText{
     margin-left: 2vw;
+    background-color: #659dd1;
+    padding: 1.5vh;
+    border-radius: 10px;
 }
 
-.indexNavLink{
-    /* margin-left: 2vw;
-    margin-right: 2vw; */
+.navLink{
     text-decoration: none;
     text-align: center;
     font-size: 1.3rem;
+    padding: 0.5vh;
     color: black;
+    background-color: #E9E3B4;
+    border-radius: 10px;
+    border: 2px, #f8f4d8, solid;
 }
 .indexOdsLi{
     list-style: none;
-    background-color: rgb(195, 195, 241);
+    background-color: #3E6990;
+    border: 3px, #659dd1, solid;
     border-radius: 10px;
     width: 80%;
     padding: 1vw;
@@ -62,9 +107,11 @@ a{ text-decoration: none; }
 .indexOdsLink{
     display: flex;
     align-items: center;
-    width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3vh;
+    background-color: #659dd1;
+    padding: 1.5vh;
+    border-radius: 10px;
     color: black;
 }
 .indexOdsImg{
@@ -78,16 +125,17 @@ a{ text-decoration: none; }
 /*                                                      ODS Section                                                         */
 /* _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_- */
 
-.odsNavLink{
+
+.navLink{
     /* margin-right: 0.5vw; */
     text-decoration: none;
     text-align: center;
     font-size: 1.3rem;
     color: black;
-    background-color: rgb(189, 189, 189);
-    border: 2px rgb(221, 221, 221) solid;
-    border-radius: 6px;
-
+    background-color: #E9E3B4;
+    border-radius: 10px;
+    border: 2px, #f8f4d8, solid;
+    padding: 0.5vh;
 }
 
 .odsIntro{
@@ -102,26 +150,30 @@ a{ text-decoration: none; }
 }
 
 .odsConsisteDiv{
-    background-color: rgb(190, 176, 156);
     border-radius: 10px;
     margin-top: 10vh;
     margin-bottom: 10vh;
     padding: 2vh;
-    
+    background-color: #3E6990;
+    border: 3px, #659dd1, solid;
+    border-radius: 10px;
 }
 
 .odsConsisteTitle{
     text-align: center;
     font-size: 1.8rem;
+    
 }
 
 .odsText{
     margin-left: 10vw;
     margin-right: 10vw;
+
 }
 
 .odsDiv{
-    background-color: rgb(190, 176, 156);
+    background-color: #3E6990;
+    border: 3px, #659dd1, solid;
     border-radius: 10px;
     padding: 2vh;
     margin-bottom: 10vh;
